@@ -1,0 +1,8 @@
+.background{
+    width: 400px;
+    height: 300px;
+    background-image: url('../../../../assets/1166529.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

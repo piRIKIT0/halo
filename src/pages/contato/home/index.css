@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu&family=Sofia+Sans&display=swap');
+
+#banner{
+    background-image: url('https://www.gamerlive.tv/wp-content/uploads/2017/07/halo4-large-hero-1920x675-new-9c4f9e45505645a7aff35068944e3506.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer{
+    width: 50%;
+}
+
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description{
+    color: #dfc016;
+    font-size: 50px;
+    font-family: 'Phudu', cursive;
+    font-size: 20px;
+    width: 70%;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color:#dfc016;
+    color:#fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: black;
+    transition: 1s;
+}
